@@ -1,42 +1,41 @@
-
 # Attendance Management System using Facial Recognition
 
-Welcome to the **Attendance Management System**, a comprehensive solution that leverages facial recognition to automate attendance marking. This project provides both smart (via facial recognition) and manual attendance recording features, along with an admin panel to manage student records efficiently.
+Welcome to the **Attendance Management System**, a application that uses facial recognition to automate attendance marking. This project provides both smart (via facial recognition) and manual attendance recording features, along with an admin panel to manage student records efficiently.
 
 ---
 
 ## Table of Contents
-1. [Features](#features)  
-2. [Technologies Used](#technologies-used)  
-3. [Installation Guide](#installation-guide)  
-4. [Usage Guide](#usage-guide)  
-5. [License](#license)  
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Installation Guide](#installation-guide)
+4. [Usage Guide](#usage-guide)
+5. [License](#license)
 
 ---
 
 ## Features
-- **Real-time Facial Recognition**: Use your webcam to automatically record attendance.  
-- **GUI Interface**: User-friendly graphical interface for seamless interaction.  
-- **Smart Attendance**: Automatically recognize and mark attendance based on stored facial data.  
-- **Manual Attendance**: Enter attendance details manually for additional flexibility.  
-- **Admin Panel**: Manage and view student data directly from the application.  
+- **Real-time Facial Recognition**: Use your webcam to automatically record attendance.
+- **GUI Interface**: User-friendly graphical interface for navigation.
+- **Smart Attendance**: Automatically recognize and mark attendance based on stored facial data.
+- **Manual Attendance**: Enter attendance details manually for additional flexibility.
+- **Admin Panel**: Manage and view student data directly from the application.
 
 ---
 
 ## Technologies Used
-- **Python**: Core language for implementation.  
-- **Tkinter**: For creating the graphical user interface.  
-- **OpenCV**: For face detection and recognition.  
-- **Pandas**: For handling CSV files and data analysis.  
-- **Pillow**: For image processing.  
+- **Python**: Core language for implementation.
+- **Tkinter**: For creating the graphical user interface.
+- **OpenCV**: For face detection and recognition.
+- **Pandas**: For handling CSV files and data analysis.
+- **Pillow**: For image processing.
 
 ---
 
 ## Installation Guide
 
 ### Prerequisites
-1. Install **Python** (version 3.8 or above) from the [official Python website](https://www.python.org/).  
-2. Install **VS Code** for code editing and execution.  
+1. Install **Python** (version 3.8 or above) from the [official Python website](https://www.python.org/).
+2. Install **VS Code** for code editing and execution.
 
 ---
 
@@ -77,24 +76,24 @@ python main.py
 
 ### Application Workflow
 
-#### 1. Take Images  
-Capture images of students for training the model.  
+#### 1. Take Images
+Capture images of students for training the model.
 ![Take Images](path_to_image/take_images.png)
 
-#### 2. Train Images  
-Train the facial recognition model using the captured images.  
+#### 2. Train Images
+Train the facial recognition model using the captured images.
 ![Train Images](path_to_image/train_images.png)
 
-#### 3. Smart Attendance  
-Automatically record attendance by recognizing faces.  
+#### 3. Smart Attendance
+Automatically record attendance by recognizing faces.
 ![Smart Attendance](path_to_image/smart_attendance.png)
 
-#### 4. Manual Attendance  
-Manually enter attendance when necessary.  
+#### 4. Manual Attendance
+Manually enter attendance when necessary.
 ![Manual Attendance](path_to_image/manual_attendance.png)
 
-#### 5. Admin Panel  
-View and manage registered student details.  
+#### 5. Admin Panel
+View and manage registered student details.
 ![Admin Panel](path_to_image/admin_panel.png)
 
 ### Closing the Application
